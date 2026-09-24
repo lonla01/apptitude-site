@@ -1,0 +1,9 @@
+{
+  "name": "apptitude-engineering-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site vitrine bilingue FR/EN d'Apptitude Engineering",
+  "scripts": {
+    "start": "npx --yes serve -s . -l ${PORT:-3000}"
+  }
+}

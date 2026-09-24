@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" data-title-fr="Contact — Apptitude Engineering" data-title-en="Contact — Apptitude Engineering">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Apptitude Engineering</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="shell">
+  <aside class="spine">
+    <div>
+      <a href="index.html" class="mark">
+        <img src="assets/logo-mark.png" alt="Apptitude Engineering" class="mark-icon">
+        <span class="mark-text">
+          <span class="word1">Apptitude</span>
+          <span class="word2">ENGINEERING</span>
+        </span>
+      </a>
+      <nav>
+        <a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a>
+        <a href="services.html" data-fr="Services" data-en="Services">Services</a>
+        <a href="approche.html" data-fr="Approche" data-en="Approach">Approche</a>
+        <a href="portfolio.html" data-fr="Portfolio" data-en="Portfolio">Portfolio</a>
+        <a href="contact.html" aria-current="page" data-fr="Contact" data-en="Contact">Contact</a>
+      </nav>
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+    <div class="foot">
+      <span data-fr="Douala, Cameroun" data-en="Douala, Cameroon">Douala, Cameroun</span>
+      <a href="mailto:apptitudesoft@gmail.com" class="loc">apptitudesoft@gmail.com</a>
+    </div>
+  </aside>
+
+  <main>
+    <section id="contact">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h1 data-fr="Un projet à cadrer ?" data-en="Have a project to scope?">Un projet à cadrer ?</h1>
+          <p data-fr="Décrivez ce que vous voulez construire — on revient vers vous avec un premier avis sur la faisabilité et l'approche." data-en="Tell us what you want to build — we'll get back to you with an initial take on feasibility and approach.">Décrivez ce que vous voulez construire — on revient vers vous avec un premier avis sur la faisabilité et l'approche.</p>
+          <a class="email-line" href="mailto:apptitudesoft@gmail.com">apptitudesoft@gmail.com</a>
+          <div class="socials">
+            <a href="https://github.com/lonla01" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <form id="contact-form">
+          <div class="field">
+            <label for="name" data-fr="NOM" data-en="NAME">NOM</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="email" data-fr="EMAIL" data-en="EMAIL">EMAIL</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="field">
+            <label for="message" data-fr="MESSAGE" data-en="MESSAGE">MESSAGE</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn primary" type="submit" data-fr="Envoyer le message" data-en="Send message">Envoyer le message</button>
+          <p class="form-note" data-fr="Ouvre votre messagerie, pré-remplie vers apptitudesoft@gmail.com." data-en="Opens your email app, pre-filled to apptitudesoft@gmail.com.">Ouvre votre messagerie, pré-remplie vers apptitudesoft@gmail.com.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <span>© 2026 Apptitude Engineering</span>
+  <span data-fr="Douala, Cameroun" data-en="Douala, Cameroon">Douala, Cameroun</span>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

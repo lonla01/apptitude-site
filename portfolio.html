@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr" data-title-fr="Portfolio — Apptitude Engineering" data-title-en="Portfolio — Apptitude Engineering">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — Apptitude Engineering</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="shell">
+  <aside class="spine">
+    <div>
+      <a href="index.html" class="mark">
+        <img src="assets/logo-mark.png" alt="Apptitude Engineering" class="mark-icon">
+        <span class="mark-text">
+          <span class="word1">Apptitude</span>
+          <span class="word2">ENGINEERING</span>
+        </span>
+      </a>
+      <nav>
+        <a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a>
+        <a href="services.html" data-fr="Services" data-en="Services">Services</a>
+        <a href="approche.html" data-fr="Approche" data-en="Approach">Approche</a>
+        <a href="portfolio.html" aria-current="page" data-fr="Portfolio" data-en="Portfolio">Portfolio</a>
+        <a href="contact.html" data-fr="Contact" data-en="Contact">Contact</a>
+      </nav>
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+    <div class="foot">
+      <span data-fr="Douala, Cameroun" data-en="Douala, Cameroon">Douala, Cameroun</span>
+      <a href="mailto:apptitudesoft@gmail.com" class="loc">apptitudesoft@gmail.com</a>
+    </div>
+  </aside>
+
+  <main>
+    <section>
+      <div class="section-head">
+        <h1 data-fr="Projets récents" data-en="Recent work">Projets récents</h1>
+        <span class="section-num mono">portfolio</span>
+      </div>
+      <p class="section-intro" data-fr="Une sélection de projets en cours ou récemment livrés." data-en="A selection of projects in progress or recently delivered.">Une sélection de projets en cours ou récemment livrés.</p>
+
+      <div class="portfolio-list">
+
+        <div class="pf-item">
+          <div>
+            <div class="pf-name">Gestion Locative</div>
+            <div class="pf-tags"><span>React</span><span>Spring Boot</span><span>PostgreSQL</span><span>Railway</span></div>
+          </div>
+          <div class="pf-desc" data-fr="Service en ligne pour propriétaires bailleurs : paiements de loyer par mobile money, reçus PDF automatiques, relances SMS/WhatsApp et vue consolidée par locataire." data-en="Online service for landlords: rent payments via mobile money, automatic PDF receipts, SMS/WhatsApp reminders and a consolidated view per tenant.">Service en ligne pour propriétaires bailleurs.</div>
+          <a class="pf-link" href="https://github.com/lonla01/property_management" target="_blank" rel="noopener">github.com/lonla01</a>
+        </div>
+
+        <div class="pf-item">
+          <div>
+            <div class="pf-name" data-fr="Suivi Mobile Money" data-en="Mobile Money Tracker">Suivi Mobile Money</div>
+            <div class="pf-tags"><span>Flutter</span><span>Android</span><span>Supabase</span></div>
+          </div>
+          <div class="pf-desc" data-fr="Application mobile qui lit les SMS Mobile Money / Orange Money, structure automatiquement chaque transaction et génère un rapport financier hebdomadaire et mensuel." data-en="Mobile app that reads Mobile Money / Orange Money SMS, automatically structures every transaction and generates a weekly and monthly financial report.">Application mobile qui lit les SMS Mobile Money / Orange Money.</div>
+          <span class="pf-status" data-fr="en développement" data-en="in development">en développement</span>
+        </div>
+
+        <div class="pf-item">
+          <div>
+            <div class="pf-name" data-fr="Prototype Paiement & Messagerie" data-en="Payments & Messaging Prototype">Prototype Paiement & Messagerie</div>
+            <div class="pf-tags"><span>React</span><span>CinetPay</span><span>Twilio</span></div>
+          </div>
+          <div class="pf-desc" data-fr="Banc de test pour valider les paiements Orange Money/MTN via CinetPay et l'envoi de notifications WhatsApp/SMS via Twilio, avant intégration dans un produit complet." data-en="Test bench to validate Orange Money/MTN payments via CinetPay and WhatsApp/SMS notifications via Twilio, ahead of integration into a full product.">Banc de test pour valider les paiements et notifications.</div>
+          <span class="pf-status" data-fr="prototype" data-en="prototype">prototype</span>
+        </div>
+
+        <div class="pf-item">
+          <div>
+            <div class="pf-name" data-fr="Agence Immobilière de Luxe" data-en="Luxury Real Estate Agency">Agence Immobilière de Luxe</div>
+            <div class="pf-tags"><span>Next.js</span><span data-fr="CMS headless" data-en="Headless CMS">CMS headless</span><span>Vercel</span></div>
+          </div>
+          <div class="pf-desc" data-fr="Plateforme bilingue FR/EN pour une agence immobilière haut de gamme : recherche de biens, synchronisation MLS, visites virtuelles et panneau d'administration des annonces." data-en="Bilingual FR/EN platform for a high-end real estate agency: property search, MLS sync, virtual tours and a listings admin panel.">Plateforme bilingue pour une agence immobilière haut de gamme.</div>
+          <span class="pf-status" data-fr="en cours" data-en="in progress">en cours</span>
+        </div>
+
+        <div class="pf-item">
+          <div>
+            <div class="pf-name" data-fr="Transcription Vocale WhatsApp" data-en="WhatsApp Voice Transcription">Transcription Vocale WhatsApp</div>
+            <div class="pf-tags"><span>Android</span><span>Kotlin</span></div>
+          </div>
+          <div class="pf-desc" data-fr="App « partager pour transcrire » : un message vocal WhatsApp est partagé vers l'app et revient transcrit en texte, sans passer par WhatsApp Web." data-en="A “share-to-transcribe” app: a WhatsApp voice note is shared to the app and comes back transcribed as text, no WhatsApp Web needed.">App « partager pour transcrire » pour les messages vocaux WhatsApp.</div>
+          <span class="pf-status" data-fr="en développement" data-en="in development">en développement</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <span>© 2026 Apptitude Engineering</span>
+  <span data-fr="Douala, Cameroun" data-en="Douala, Cameroon">Douala, Cameroun</span>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
