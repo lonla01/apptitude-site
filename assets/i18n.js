@@ -16,7 +16,7 @@ function applyLang(lang){
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-  var saved = localStorage.getItem('apptitude-lang') || 'fr';
+  var saved = localStorage.getItem('apptitude-lang') || 'en';
   applyLang(saved);
   document.querySelectorAll('.lang-btn').forEach(function(b){
     b.addEventListener('click', function(){ applyLang(b.dataset.lang); });
